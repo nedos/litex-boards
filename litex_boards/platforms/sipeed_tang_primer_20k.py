@@ -143,7 +143,7 @@ _dock_io = [
     ("led", 5,  Pins("CARD1:136"), IOStandard("LVCMOS33")),
 
     # RGB Led.
-    ("rgb_led", 0, Pins("CARD1:45"), IOStandard("LVCMOS18")),
+    ("rgb_led", 0, Pins("CARD1:45"), IOStandard("LVCMOS33")),
 
     # Buttons.
     ("btn_n", 0,  Pins( "CARD1:15"), IOStandard("LVCMOS33")),
